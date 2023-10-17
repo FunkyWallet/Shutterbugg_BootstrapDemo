@@ -1,0 +1,77 @@
+/*Shutterbugg Bootstrap Landing Page Project Stylesheet*/
+/*  font-family: 'Cinzel', serif;     // use for titles
+    font-family: 'Dosis', sans-serif; // use for headings
+    font-family: 'Rajdhani', sans-serif; // use for body
+*/ 
+
+div.container {
+    max-width: 1000px;
+    border: 2px solid blue;
+}
+div.main {
+    background-image: url(../sbugg_images/intro.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* cool effect called Paralax. (Optional) */
+    padding-top: 5%; /* brings down intro and tag line*/
+    text-align: center;
+}
+
+div.main h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.6em;
+    text-shadow: crimson 1px 2px 2px; /*right, bottom, blur*/
+}
+div.main h2 {
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 3%;
+}
+div.main a.btn {
+    background-color: crimson;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+div.main a.btn:hover {
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
+div.section {
+    padding-top: 2.5%;
+}
+div.row h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3.6em;
+    text-shadow: crimson 1px 2px 2px; /*right, bottom, blur*/
+}
+div.footer h1 {
+    text-align: center;
+}
+div.footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+div.footer a {
+    text-decoration: none;
+    color: black;
+}
+div.footer a:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+div.row p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.7em;
+}
+div#rightpic {
+    text-align: right;
+}
+div#store {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
